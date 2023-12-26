@@ -1,0 +1,433 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index:1;
+    border-bottom: 0.1px solid rgba(0, 0, 0, 0.336);
+}
+.bold{
+    font-weight: bold;
+}
+
+
+.info{
+    height: 40px;
+    font-size: 12px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1.5px;
+    font-weight: bolder;
+    opacity:70%;
+    
+    cursor: pointer;
+    background-color: rgb(241, 250, 255);
+    font-family: 'Roboto Slab', serif;
+}
+.navbar
+{
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+    display: flex;
+    position:sticky;
+    z-index: 1;
+    align-items: center;
+    justify-content: space-evenly;
+    padding:0px 40px 0px 40px;
+}
+
+/*  Logo */
+
+.logo
+{
+    height: 33px;
+    background-image: url(https://cdn.shopify.com/s/files/1/0057/8938/4802/files/boAt_logo_small.svg?v=1682421543);
+    background-size:contain;
+    width:80px;
+    cursor:pointer;
+
+}
+
+
+
+/* This is navbar menu */
+
+#cat{
+    border:none;
+    width:120px;
+    text-decoration: none;
+    font-size: 18px;
+    color:black;
+    font-family: 'Roboto Slab', serif;
+    cursor:pointer;
+    
+}
+#cat:hover{
+    color: rgb(205, 19, 19);
+}
+.nav-menu ul
+{
+    display:flex;
+    padding-left:20px;
+    width: 800px;
+    padding-top:20px;
+    padding-left:50px;
+}
+.nav-menu ul li {
+    list-style-type: none;
+}
+.nav-menu ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    padding:15px;
+    color:black;
+    font-family: 'Roboto Slab', serif;
+
+}
+ul li a:hover{
+    color: rgb(205, 19, 19);
+}
+
+
+/* This is Search bar */
+
+.search
+{    
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #f4f5f7;
+height: 40px;
+width: 300px;
+padding-left:10px;
+border-radius: 50px;
+}
+
+.search-icon{
+   font-size:20px;
+}
+#search{
+    border:none;
+    background-color:transparent;
+    text-align: center;
+    width:250px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+.search:hover{
+border:2px solid black;
+cursor:pointer;
+}
+.user
+{
+    height: 20px;
+    width: 10px;
+    font-size: 22px;
+    cursor:pointer;
+    position: relative;
+    bottom:5px;
+}
+
+.shopping
+{
+    height: 20px;
+    width: 10px;
+    font-size: 22px;
+    cursor:pointer;
+    position: relative;
+    bottom:5px;
+}
+
+main{
+    padding:30px;
+    width: 100%;
+}
+
+.mainHeading{
+    height: 70px;
+    width: 100%;
+
+}
+.h1{
+    font-size: 30px;
+   
+}
+
+.group1{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 100%;
+    padding:10px;
+    
+    
+}
+
+.group2{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 100%;
+    padding:10px;
+    
+}
+.group3{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 100%;
+    padding:10px;
+}
+.group4{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 100%;
+    padding:10px;
+}
+.group5{
+     display: flex;
+    justify-content: space-evenly;
+    max-width: 100%;
+    padding:10px;
+}
+.group6{
+    display: flex;
+   justify-content: space-evenly;
+   max-width: 100%;
+   padding:10px;
+}   
+.watch{
+    height: 270px;
+    width: 475px;
+    background-color: rgba(229, 221, 221, 0.24);
+    border-radius: 10px;
+    border:1px solid rgb(201, 201, 201);
+    display:flex;
+    justify-content: space-between;
+    padding:10px;
+    margin:10px;
+    
+
+}
+
+.section
+{
+    display: flex;
+   justify-content: flex-start;
+   
+   
+
+}
+.setImage{
+    height:220px;
+    width: 190px; 
+    border-radius: 10px 10px 0px 0px;
+
+
+}
+.text{
+    background-color: greenyellow;
+    height: 24px;
+    width: 190px;
+    display: inline-block;
+    text-align: center;
+    border-radius:0px 0px 10px 10px;
+}
+
+.rightSection{
+    height: 190px;
+    width: 250px;
+    padding:8px 6px 0px 10px;
+    border-radius: 0px 10px 10px 0px;
+}
+.fa-star{
+    color: rgb(220, 131, 5);
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.i1{
+    height: 22px;
+    width: 270px;
+    font-size: 20px;
+    font-weight: bold;
+    color:rgba(2, 2, 12, 0.918);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.i2{
+        font-size: 15px;
+        height:35px ;
+        width:270px ;
+        letter-spacing: 2px;
+        padding-bottom: 10px;
+        border-bottom: 0.5px solid rgba(216, 202, 202, 0.294);
+}
+
+.i3{
+    height: 52px;
+    width: 270px;
+    padding:10px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding-bottom: 85px;
+}
+.button{
+    height: 52px;
+    width: 270px;
+    padding-right: 10px;
+    
+}
+.b1{
+height: 40px;
+width: 280px;
+border-radius: 10px;
+}
+
+.b1:hover{
+    background-color: black;
+    color:white;
+    transition:0.5s;
+    
+}
+
+
+/* loader boat  */
+
+.loader{
+    height: 20px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#loader{
+    height: 80px;
+    width:80px;
+    animation: loader 1s 3s ease 5 backwards;
+    cursor: pointer;
+}
+
+
+@keyframes loader {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+
+   
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    height:400px;
+    display:flex;
+    justify-content: space-evenly;
+    background: #e7f0f5;
+    padding:50px;
+    margin-top:50px;
+    
+    
+}
+
+.logo-footer{
+    height: 60px;
+    background-image: url(https://cdn.shopify.com/s/files/1/0057/8938/4802/files/boAt_logo_small.svg?v=1682421543);
+    background-size:contain;
+    width:140px;
+    cursor:pointer;
+}
+
+.boat-info{
+    width: 280px;
+    height: 200px;
+    padding-top:50px;
+    margin-right:50px;
+    
+}
+.boat-info p{
+    font-size:20px;
+    margin-top: 10px;
+    font-family: 'Roboto Slab', serif;
+}
+#email
+{
+    height: 50px;
+    width: 280px;
+    padding-left:20px;
+    border-radius: 10px;
+}
+.part1{
+    float: left;font-size:14px;
+}
+.part2{
+    float: right;
+    padding-left:10px;
+    text-decoration: none;
+    color: black;
+    font-size:14px;
+    margin-right:50px;
+}
+.part2 a, .part1 a{
+    text-decoration: none;
+    color: black;
+}
+
+.boat-help{
+    width: 280px;
+    height: 200px;
+    font-size:14px;
+    margin-right:20px;
+   
+}
+.boat-help a{
+    text-decoration: none;
+    color:black;
+}
+.boat-company{
+    width: 280px;
+    height: 200px;
+    font-size:14px;
+}
+.boat-company a{
+    text-decoration: none;
+    color:black;
+}
+
+

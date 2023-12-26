@@ -1,0 +1,187 @@
+*{
+    margin: 0;padding: 0;
+}
+body{
+  overflow-x: none;
+  
+}
+
+@media (max-width:1400px) {
+
+  .hamburger>i{
+    color: #CCFB90;
+    font-size:30px;
+    display: none;
+  }
+
+  .section{
+    display: inline-block;
+  }
+  
+    .leftSection{
+      height: 100%;
+      width: 80%;
+      padding:150px 150px;
+      z-index: 9;
+      
+  }
+  .rightSection{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 50%;
+
+  }
+  
+  .rightSection>img{
+    height: 100%;
+    width: 80%;
+    
+    
+  }
+
+  .AboutPage{
+    display: inline-block;
+    margin:auto;
+    height: auto;
+  }
+
+  .Aboutleft{
+    margin:auto;
+    width: 80%;
+  }
+
+  .Aboutright{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding:50px;
+  }
+
+
+  .cart{
+    height: 70vh;
+    width: 30vw;
+    background-color: #ffffff;
+    border-radius: 1%;
+    flex-direction: column;
+    background-color: #151D28;
+    padding:20px;
+    margin-top:20px;
+    
+    
+    
+  }
+
+  Email{
+    display: flex;
+  
+    align-items: center;
+  }
+  .Email>h3{
+    color:#71747A;
+    letter-spacing: 1px;
+  }
+  
+
+  
+
+
+  
+    }
+  
+  @media (max-width:900px) {
+    
+  Header{
+    width: 100%;
+  }
+  
+  .navbar{
+    gap:100px;
+  }
+  .logo>img{
+    height: 80px;
+    width: 150px;
+  }
+
+
+  Email{
+    display: flex;
+    align-items: center;
+  }
+  .Email>h3{
+    color:#71747A;
+    letter-spacing: 1px;
+    font-size: 15px;
+  }
+    
+    .contactInfo
+    {
+      height: 50vh;
+      width: 65vw;
+    }
+    .ResumeInfo
+    {
+      height: 50vh;
+      width: 65vw;
+    }
+
+
+  }
+  
+  @media (max-width:700px) {
+    
+    Header{
+      width: 100%;
+    }
+    
+    .navbar{
+      gap:20px;
+    }
+    .logo>img{
+      height: 80px;
+      width: 150px;
+    }
+
+    .hamburger>i{
+      color: #CCFB90;
+      font-size:30px;
+      display: none;
+    }
+  
+      /* Main Home page Section  */
+      .leftSection{
+        height: 100%;
+        width: 100%;
+        margin:auto;
+        padding:0px 0px;
+        z-index: 9;
+        
+    }
+
+
+
+
+
+    .cart{
+      height: 70vh;
+      width: 60vw;
+      background-color: #ffffff;
+      border-radius: 1%;
+      flex-direction: column;
+      background-color: #151D28;
+      padding:20px;
+      margin-top:20px;
+      
+      
+    }
+  
+
+  
+    
+  
+    }
+  

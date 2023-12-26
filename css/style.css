@@ -1,0 +1,762 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Oswald&family=Roboto+Slab&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+body{
+    background-color: #0C151D;
+    overflow:hidden;
+    overflow-y: hidden;
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Slab', serif;
+
+
+}
+
+Header{
+    height: 15vh;
+    width: 100%;
+    background-color: #0C151D;
+    gap:20px;
+
+
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 15vh;
+    width: 100vw;
+    gap:20px;
+}
+.navmenu{
+  display: flex;
+
+  gap:25px;
+}
+ .navList{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:40px;
+    flex-wrap: wrap;
+    font-size: 17px;
+    list-style: none;
+
+}
+
+
+#home :active{
+color:white;
+font-size: 17.9px;
+}
+
+.navList>li>a{
+    color: #CCFB90;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
+
+
+.logo>img{
+    height: 100px;
+    width: 180px;
+    padding-top:10px;
+}
+
+
+.hamburger>i{
+  color: #CCFB90;
+  font-size:30px;
+  display: none;
+  cursor: pointer;
+}
+
+/* PreBuild Button in Website for Resume code */
+#resumeBtn {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-size: 15px;
+    padding: 0.5em 1.5em;
+    font-weight: 500;
+    background: #1F2937;
+    color:#CCFB90;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 0.6em;
+  }
+
+  #resumeBtn > a{
+    color:#CCFB90;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+  }
+  
+  .gradient {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 0.6em;
+    margin-top: -0.25em;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3));
+  }
+  
+  .label {
+    position: relative;
+    top: -1px;
+  }
+  
+  .transition {
+    transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    transition-duration: 500ms;
+    background-color: #0d161d;
+    border-radius: 9999px;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#resumeBtn:hover .transition {
+    width: 14em;
+    height: 14em;
+  }
+  
+  #resumeBtn:active {
+    transform: scale(0.97);
+  }
+
+                                /* SEcond PReBulild Code HEre for TAke a view Button */
+
+#scrollBtn {
+  
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+  background: #CCFB90;
+  color: white;
+  padding: 0.7em 1em;
+  padding-left: 0.9em;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 16px;
+  overflow: hidden;
+  transition: all 0.2s;
+}
+
+#scrollBtn span {
+  display: block;
+  margin-left: 0.3em;
+  transition: all 0.3s ease-in-out;
+  color:#0C151D;
+  list-style: none;
+}
+#scrollBtn >a{
+  text-decoration: none;
+
+}
+
+
+
+
+/* ____________________________PRebuild Button code end Here  */
+
+
+.section{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    flex-wrap: wrap;
+    
+}
+
+
+
+
+.leftSection{
+    height: 100%;
+    width: 50%;
+    padding:150px 50px 150px 250px;
+    z-index: 9;
+    
+}
+
+.leftSection>.Name>h1{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    color:#CCFB90;
+    font-size: 20px;
+    width: 100%;
+}
+
+.leftSection>.Carrer>h1{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    color:#ffffff;
+    font-size: 70px;
+}
+.leftSection>.Skill>p{
+    color: rgb(248, 248, 248);
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    width: 40vw;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+.leftSection>.Line{
+    width: 600px;
+    height:1px;
+    margin-top:40px;
+    background-color: white;
+    position: relative;
+    z-index: 10;
+    
+}
+
+.leftSection>.Scroll>button{
+    margin-top:20px;
+}
+
+
+.rightSection{
+    width: 40%;
+    height: 80%;
+ 
+}
+
+.rightSection>img{
+    padding-top:50px;
+    padding-left:100px;
+    height: 80%;
+    width: 100%;
+    
+    
+}
+
+
+/* __________________________________________________________________________________________________________________ */
+
+.AboutPage{
+  height: 100vh;
+  width: 100vw;
+  padding:5vh;
+  display: flex;
+  gap:20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.Aboutleft{
+  height: 100vh;
+  width: 30%;
+}
+
+.Aboutleft img{
+  margin-top:5vh;
+  height: 80%;
+  width: 100%;
+}
+
+.Aboutright{
+  width: 40%;
+  height: 100%; 
+  line-height: 2;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto Slab', serif;
+  padding:50px;
+}
+
+.Aboutright h3{
+  color:#CCFB90;
+}
+.Aboutright h2{
+  color:white;
+}
+.Aboutright h4{
+  color:#71747a
+}
+
+
+
+.about1 , .about2{
+  display: flex;
+  padding-top:30px;
+  gap:20px;
+
+}
+.about1>i , .about2>i{
+  color:white;
+  font-size: 30px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 80%;
+  width: 80px;
+  border-radius: 100%;
+ 
+ 
+}
+
+
+
+/* ▶️Now starting the portfolio Section from here */
+
+
+
+.portfolio1{
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 2;
+  color:#CCFB90;
+  letter-spacing: 2px;
+  font-family: 'Montserrat', sans-serif;
+ font-size: 12px;
+}         
+.portfolio1>h2{
+color:white;
+}
+
+
+/* ________________________________________________________________ */
+
+.portfolio2{
+  height: 20vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+   color:#CCFB90;
+
+}
+
+
+.portfolio2Line{
+  height: 2px;
+  width: 10%;
+  background-color:#CCFB90;
+  margin-top:15px;
+}
+
+/* _______________________________________________________________ */
+
+.project{
+  height:auto;
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:3%;
+  padding:0vw 10vw;
+  flex-wrap: wrap-reverse;
+  
+
+}
+
+.cart{
+  height: 70vh;
+  width: 20vw;
+  background-color: #ffffff;
+  border-radius: 1%;
+  flex-direction: column;
+  background-color: #151D28;
+  padding:20px;
+  margin-top:20px;
+  float:left;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  
+}
+.cart:hover{
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  background-color: #071c2e;
+}
+.cartImage
+{
+
+  display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+  height: 30vh;
+}
+
+.cartImage>img{
+  width: 100%;
+  height: 25vh;
+  border-radius: 1%;
+  
+}
+
+
+.projectName{
+ font-family: 'Montserrat', sans-serif;
+ font-weight: bold;
+ color:white;
+ font-size: 14px;
+ display: flex;
+ align-items: center;
+ height: 8vh;
+}
+
+.projectDisc{
+  display: flex;
+
+  justify-content: center;
+  font-size:13px;
+  color:white;
+  height: 20vh;
+  /* padding:0px 20px; */
+}
+
+
+
+.ExploerSite{
+  width: 110px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  background-color: rgb(161, 255, 20);
+  border-radius: 30px;
+  color: rgb(19, 19, 19);
+  font-weight: 600;
+  border: none;
+  position: relative;
+  color:black;
+  cursor: pointer;
+  transition-duration: .2s;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.116);
+  padding-left: 8px;
+  transition-duration: 0.5s;
+}
+
+.ExploreIcon {
+  height: 25px;
+  transition-duration: 1.5s;
+}
+
+
+
+#ExploreLink{
+  color:black;
+  text-decoration: none;
+}
+
+
+/* Contact Section Starting from here */
+
+#contact
+{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contactTitle
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  gap:15px;
+  width: 100vw;
+}
+
+.contactTitle>h3{
+  color: #CCFB90;
+
+}
+.contactTitle>H2{
+  color: #ffffff;
+  letter-spacing: 2px;
+}
+
+
+
+.ContactSection{
+display: flex;
+align-items: center;
+justify-content:center;
+flex-wrap: wrap;
+gap:40px;
+padding:120px;
+}
+
+
+.contactInfo
+{
+  height: 50vh;
+  width: 35vw;
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color:#151D28;
+  border-bottom: 3px solid #CCFB90;
+}
+
+.contactInfo>h2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:#CCFB90;
+  height: 25%;
+  letter-spacing: 1px;
+}
+.LineC{
+  height: 1px;
+  width: 5vw;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.personal{
+  justify-content: center;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap:30px;flex-wrap: wrap;
+}
+
+.phoneNumber{
+  display: flex;
+  gap:40px;
+}
+.phoneNumber>i{
+  font-size: 20px;
+  color:#c4c8d0;
+}
+.phoneNumber>h3{
+  color:#71747A;
+  letter-spacing: 3px;
+}
+
+.phoneNumber>h3:hover{
+  color:#CCFB90;
+  cursor: pointer;
+}
+
+
+.Email{
+  display: flex;
+  gap:30px;
+}
+.Email>i{
+  font-size: 20px;
+  color:#c4c8d0;
+}
+
+.Email>h3{
+  color:#71747A;
+  letter-spacing: 3px;
+}
+
+.Email>h3:hover{
+  color:#CCFB90;
+  cursor: pointer;
+
+}
+
+
+.ResumeInfo
+{
+  height: 50vh;
+  width: 35vw;
+  background-color:#151D28;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 3px solid #CCFB90;
+}
+
+
+
+div.ResumeTitle
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+
+}
+
+div.ResumeTitle>h2
+{
+display: flex;
+color:#CCFB90;
+align-items: center;
+justify-content: center;
+width:100%;
+height: 10vh;
+letter-spacing: 3px;
+
+}
+
+.buttonResume
+{
+  height: 40vh;
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.shadow__btn {
+  padding: 10px 20px;
+  border: none;
+  font-size: 17px;
+  color: #151D28;
+  cursor: pointer;
+  border-radius: 7px;
+  letter-spacing: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.5s;
+  transition-property: box-shadow;
+}
+
+.shadow__btn {
+  background:#CCFB90;
+  box-shadow: 0 0 25px #CCFB90;
+}
+
+.shadow__btn:hover {
+  box-shadow: 0 0 5px #CCFB90,
+              0 0 25px #CCFB90,
+              0 0 50px #CCFB90,
+              0 0 100px #CCFB90;
+}
+
+
+.shadow__btn>a{
+    color:#151D28;
+    text-decoration: none;
+}
+
+#backtotop{
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding:50px;
+}
+
+.Btn {
+  width: 45px;
+  height: 45px;
+  background: linear-gradient(#44ea76, #39fad7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  border: none;
+
+}
+
+.arrow path {
+  fill: white;
+}
+
+.text {
+  font-size: 0.7em;
+  width: 100px;
+  position: absolute;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: -18px;
+  opacity: 0;
+  transition-duration: .7s;
+}
+
+.Btn:hover .text {
+  opacity: 1;
+  transition-duration: .7s;
+}
+
+.Btn:hover .arrow {
+  animation: slide-in-bottom .7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes slide-in-bottom {
+  0% {
+    transform: translateY(10px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+  height: 15vw;
+  background-color: #151D28;
+  color:#CCFB90;
+  display: flex;
+  align-items: center;
+}
+
+.Gratitude{
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw
+}
