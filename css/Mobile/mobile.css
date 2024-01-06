@@ -13,15 +13,18 @@ html,body{
 @media (max-width:640px) {
   
 
-  .section{
-    height: 300px;
-  }
-
+.section{
+  margin-top:30px;
+  height: 50vh;
+}
 
 .rightSection{
+  height: 80%;
+  width: 100vw;
+}
+
+.rightSection>img{
   display: none;
-  height: 0px;
-  width: 0px;
 }
 
     #resumeBtn{
@@ -102,23 +105,85 @@ html,body{
    
   .AboutPage{
     display: inline-block;
-    margin:auto;
+    margin-top:0px;
+
   }
 
-  .Aboutleft{
-    height: 70vh;
-    margin:auto;
-    width: 100%;
-  }
+  
+
+
+
 
   .Aboutright{
-    height: 100vh;
-    width: 100%;
+    height: 100%;
+    width: 80%;
     display: flex;
     align-items: center;
     margin: auto;
     padding:0px;
   }
+ 
+
+  .paraHeading{
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 20px;
+  }
+
+  .AboutMySelf{
+    margin-bottom: 20px;
+  }
+ 
+
+
+.skill{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80vw;
+  padding:20px 0px 0px 15px;
+  gap:20px;
+  background-color: rgba(54, 54, 51, 0.714);
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.skill:hover{
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 32px 400px 10px;}
+.frontend{
+  margin-left:0px;
+}
+.frontend>h2{
+  text-align: center;
+}
+
+.frontendImages{
+  padding: 5px;
+}
+.frontendImages>.html>img{
+  height: 80px;
+  width: 250px;
+}
+.backend>h2{
+  text-align: center;
+}
+
+.backendImages{
+  display: flex;
+  padding:45px;
+}
+.backendImages>.node>img{
+  height: 50px;
+  width: 100px;
+}
+.backendImages>.express>img{
+  height: 60px;
+  width: 150px;
+}
+
+
+
+
 
   .contactInfo
     {
